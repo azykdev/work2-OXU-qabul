@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- meta character set -->
+  <meta charset="UTF-8" />
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png" />
+  <link rel="manifest" href="img/favicon_io/site.webmanifest" />
+
+  <!-- Site Title -->
+  <title>OXU | Qabul Sahifasi</title>
+
+  <!-- AOS Animation library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <!-- MDI ICON -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- =======================================================
+    * Template Name: OXU-qabul.uz
+    * created: aa.bb.2023
+    * Site URL: https://mainproject.uz
+    * Author: Azizbek Nayimov
+    ======================================================== -->
+</head>
+
+<body>
+  <!-- Modal kvitansiya-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Kvitansiya! </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Kvitansiyani quyidagi raqamlarga telefon qilib tasdiqlatishingiz mumkin! <br>
+          tel: +998 55 305 00 09
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal naqd to'lash -->
+  <div class="modal fade" id="exampleModalNaqd" tabindex="-1" aria-labelledby="exampleModalNaqd" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalNaqd">Naqd pul orqali to'lov</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Hurmatli talaba, agar naqd pul ko'rinishida to'lovni amalga oshirmoqchi bo'lsangiz universitetimizga borgan
+          holda to'lovni amalga oshirishingiz kerak bo'ladi. Shunda xodimlarimiz pul qabul qilinganligini tasdiqlashadi.
+          Agarda bu sizga noqulaylik tug'dirsa ortga qaytib Payme yoki bank orqali to'lashingiz mumkin.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Offcanvas Start -->
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+    aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header bg-light border-bottom">
+      <div>
+        <img src="img/logo.png" alt="logo" width="30" />
+        <span class="ps-1 text-muted fw-light fs-5">Osiyo Xalqaro Universiteti</span>
+      </div>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <!-- Nav List -->
+      <ul class="offcanvas-nav-list mb-5">
+        <li class="offcanvas-nav-item">
+          <a href="index.html" class="nav-link">Bosh sahifa</a>
+        </li>
+        
+        <li class="offcanvas-nav-item">
+          <a href="#adress" class="nav-link">Manzil</a>
+        </li>
+      </ul>
+
+      <!-- Contact -->
+      <div class="d-flex flex-column">
+        <a href="tel: +998 55 305 00 09" class="text-dark">
+          <i class="fa-solid fa-phone"></i>
+          <span>+998 55 305 00 09 </span>
+        </a>
+        <a href="mailto: info@oxu.uz" class="text-dark">
+          <i class="mdi mdi-email fs-5"></i>
+          <span>info@oxu.uz</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanvas End -->
+
+  <!-- HEADER START -->
+  <header class="registered-header">
+    <nav class="nav p-3 shadow-sm z-1">
+      <div class="container-lg w-100 d-flex align-items-center justify-content-between">
+        <a href="#" class="nav-logo d-flex align-items-center justify-content-start">
+          <img src="img/logo.png" alt="oxu logo" width="40" class="nav-logo-img" />
+          <span class="nav-logo-text p-1 lh-sm fw-light d-none d-md-block ps-3">Osiyo Xalqaro <br />
+            Universiteti</span>
+        </a>
+
+        <!-- Nav List -->
+        <ul class="nav-list d-none d-md-flex">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Bosh sahifa</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="#adress" class="nav-link">Manzil</a>
+          </li>
+        </ul>
+        <div class="d-md-none">
+          <h5 class="text-light">OXU.UZ</h5>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <div class="d-none d-md-block d-md-flex flex-column align-items-end">
+            <a href="tel: +998 55 305 00 09" class="nav-phone-link">
+              <i class="fa-solid fa-phone"></i>
+              <span>+998 55 305 00 09 </span>
+            </a>
+            <a href="mailto: info@oxu.uz" class="nav-email-link">
+              <i class="mdi mdi-email fs-5"></i>
+              <span>info@oxu.uz</span>
+            </a>
+          </div>
+          <button class="btn btn-primary d-md-none" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="header-content ">
+      <div class="container-fluid container-lg p-4 py-md-5">
+        <div class="row bg-white rounded opacity-75 p-3 p-md-5">
+          <div class="col-lg-6">
+            <h1>Osiyo xalqaro universiteti
+              qabul dasturiga xush kelibsiz!</h1>
+            <p class="text-muted">Siz muvaffaqiyatli ro'yxatdan o'tdingiz. Imtihonga kirish uchun siz quyida
+              keltirilgan usullardan biri bilan <span class="fw-bold">200.000 so'm</span> to'lovni amalga
+              oshirishingiz kerak bo'ladi. </p>
+
+            <div class="d-none d-lg-flex">
+              <div class="payment-btn m-2 px-3 py-1 d-flex align-items-center  bg-light text-dark border rounded"
+                data-bs-toggle="modal" data-bs-target="#exampleModal" title="Kvitansiya">
+                <i class="my-0 me-1 mdi mdi-bank-circle h3"></i>
+                <span>Kvitansiya</span>
+              </div>
+              <div class="payment-btn m-2 px-3 py-1 d-flex align-items-center bg-light border text-light rounded">
+                <a href="#">
+                  <img src="img/payme-logo.png" class="payme-logo" width="" alt="Payme" title="Payme orqali to'lov">
+                </a>
+              </div>
+              <div class="payment-btn m-2 px-3 py-1 d-flex align-items-center  bg-light text-dark border rounded"
+                data-bs-toggle="modal" data-bs-target="#exampleModalNaqd" title="Naqd to'lov">
+                <i class="my-0 me-1 mdi mdi-cash-100  h3"></i>
+                <span>Naqd to'lov</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 pt-5 pt-lg-0">
+            <div>
+              <ul>
+                <li class="mb-3">
+                  <i class="mdi mdi-phone fs-5  text-primary me-2"></i>
+                  <span class=" fw-bold">Telefon:</span>
+                  <span class="fw-light ms-2">+998 55 305 00 09</span>
+                </li>
+                <li class="mb-3">
+                  <i class="mdi mdi-account fs-5  text-primary me-2"></i>
+                  <span class=" fw-bold">F.I.O:</span>
+                  <span class="fw-light ms-2">Azizbek Nayimov Qurbon o'gli</span>
+                </li>
+                <li class="mb-3">
+                  <i class="mdi mdi-web fs-5  text-primary me-2"></i>
+                  <span class=" fw-bold">Ta'lim tili:</span>
+                  <span class="fw-light ms-2">O`zbek</span>
+                </li>
+                <li class="mb-3">
+                  <i class="mdi mdi-file-document fs-5  text-primary me-2"></i>
+                  <span class=" fw-bold">Ta'lim turi:</span>
+                  <span class="fw-light ms-2">Bakalavr</span>
+                </li>
+                <li class="mb-3">
+                  <i class="mdi mdi-file-table-outline fs-5  text-primary me-2"></i>
+                  <span class=" fw-bold">Ta'lim shakli:</span>
+                  <span class="fw-light ms-2">Kunduzgi</span>
+                </li>
+                <li class="mb-3">
+                  <i class="mdi mdi-phone fs-5  text-primary me-2"></i>
+                  <span class=" fw-bold">Yo'nalish:</span>
+                  <span class="fw-light ms-2">Pedagogika va Psixologiya</span>
+                </li>
+                <li class="mb-3">
+                  <i class="mdi mdi-directions-fork fs-5  text-primary me-2"></i>
+                  <span class=" fw-bold">To'lanishi kerak bo'lgan summa:</span>
+                  <span class="fw-light ms-2">200.000 so'm</span>
+                </li>
+              </ul>
+
+              <div class="d-flex d-lg-none mt-5">
+                <div class="payment-btn me-1 px-2 py-1 d-flex align-items-center  bg-light text-dark border rounded"
+                  data-bs-toggle="modal" data-bs-target="#exampleModal" title="Kvitansiya">
+                  <i class="my-0 me-1 mdi mdi-bank-circle h3"></i>
+                  <span>Kvitansiya</span>
+                </div>
+                <div class="payment-btn me-1 px-2 py-1 d-flex align-items-center bg-light border text-light rounded">
+                  <a href="#">
+                    <img src="img/payme-logo.png" class="payme-logo" width="" alt="Payme" title="Payme orqali to'lov">
+                  </a>
+                </div>
+                <div class="payment-btn me-1 px-2 py-1 d-flex align-items-center  bg-light text-dark border rounded"
+                  data-bs-toggle="modal" data-bs-target="#exampleModalNaqd" title="Naqd to'lov">
+                  <i class="my-0 me-1 mdi mdi-cash-100  h3"></i>
+                  <span>Naqd</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- HEADER END -->
+
+  <!-- ADRESS START -->
+  <section class="adress mt-5" id="adress">
+    <div class="container-fluid container-lg p-3 py-md-5">
+      <div style="height: .3125rem; background-color: rgb(234, 234, 234);"></div>
+      <h2 class="license-title text-center my-5">Bizning Manzil</h2>
+      <div class="row">
+        <div class="col-12 col-md-5 mb-3">
+          <h5 class="text-muted">Osiyo Xalqaro Univarsiteti</h3>
+            <p class="d-flex align-items-center">
+              <i class="mdi mdi-phone fs-5 fw-bold text-secondary me-2"></i>
+              <span class="text-secondary">Tel: +998 55 305 00 09</span>
+            </p>
+            <p class="d-flex align-items-start">
+              <i class="mdi mdi-map-marker fs-5 fw-bolder text-secondary me-2"></i>
+              <spann class="text-secondary">Buxoro shahar, Yangiobod mfy, <br> G`ijduvon ko'chasi, 74-uy.</span>
+            </p>
+            <p class="d-flex align-items-center">
+              <i class="mdi mdi-email fs-5 fw-bolder text-secondary me-2"></i>
+              <spann class="text-secondary">info@oxu.uz</span>
+            </p>
+
+
+            <!-- Social medias -->
+            <ul class="d-flex justify-content-start">
+              <li class="me-4">
+                <a href="#">
+                  <i class="mdi mdi-send fs-2 text-dark"></i>
+                </a>
+              </li>
+              <li class="me-4">
+                <a href="#">
+                  <i class="mdi mdi-instagram fs-2 text-danger"></i>
+                </a>
+              </li>
+              <li class="me-4">
+                <a href="#">
+                  <i class="mdi mdi-facebook fs-2"></i>
+                </a>
+              </li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-7">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=true&amp;um=constructor%3A21f7deb6b7396fff26dfe0a546a7c82095b1ecce24c4b66d82892d1a29211a4e"
+            frameborder="0" allowfullscreen="true" width="100%" height="100%" style="display: block;"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONSTACT END -->
+
+  <!-- FOOTER START -->
+  <footer class="footer bg-dark">
+    <div class="container-fluid container-lg ">
+      <p class="text-center py-3 m-0 text-light">@ 2023 oxu.uz</p>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap/bootstrap.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      startEvent: "load",
+    });
+  </script>
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
